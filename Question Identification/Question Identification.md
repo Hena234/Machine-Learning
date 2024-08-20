@@ -1,0 +1,3 @@
+An EdTech company has hired you as a machine learning engineer. The first task they provide you is to build a model that can identify questions within transcripts of video lectures. You are given the attached data set whihc has been painstakingly annotated, with each sentence being classified as a question or a sentence.
+
+Using all these skills, build a pipeline that does various clearning of the text sentences, use all vectorization approaches you have been introduced to (both semantic and syntactic), build models for discriminating between questions and general sentences and evaluate the models using ROC curves. 
