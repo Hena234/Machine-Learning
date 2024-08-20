@@ -2,7 +2,7 @@
 1.Write a function to generate an m+1 dimensional data set, of size n, consisting of m continuous independent
 variables (X) and one dependent variable (Y) defined as
 
-$y_i = x_i\beta + e$
+$y_i = x_i \beta + e$
 where,
 
 + e is a Gaussuan distribution with mean 0 and standard deviation ($\sigma$),representing the unexplained
@@ -19,7 +19,7 @@ The function should take the following parameters:
 Output from the function should be:
 + X: An n * m numpy array of independent variable values (with a 1 in the first column)
 + Y : The n * 1 numpy array of output values
-+ $\beta$ : The random coefficients used to generatre Y from X
++ $\beta$ : The random coefficients used to generatre Y from X
   
 2 Write a function that learns the parameters of a linear regression line given inputs
 + X: An n * m numpy array of independent variable values
@@ -28,7 +28,7 @@ Output from the function should be:
 + $\tau$: the threshold on change in Cost function value from the previous to current iteration
 + $\lambda$: the learning rate for Gradient Descent
   
-The function should implement the Gradient Descent algorithm as discussed in class that initialises $$\beta with
+The function should implement the Gradient Descent algorithm as discussed in class that initialises $\beta$ with
 random values and then updates these values in each iteraction by moving in the the direction defined by
 the partial derivative of the cost function with respect to each of the coefficients. The function should use
 only one loop that ends after a number of iterations (k) or a threshold on the change in cost function value
@@ -36,4 +36,4 @@ only one loop that ends after a number of iterations (k) or a threshold on the c
 The output should be an m + 1 dimensional vector of coefficients and the final cost function value.
 
 3 Create a report investigating how differen values of n and $\sigma$ impact the ability for your linear regression
-function to learn the coefficients, , used to generate the output vector Y .
+function to learn the coefficients, used to generate the output vector Y .
